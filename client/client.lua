@@ -70,7 +70,7 @@ Citizen.CreateThread(function()
             if distance <= 2.0 then
                 interval = 0
                 InZone[v.Zones] = true 
-                RageUI.Text({ message = "Appuyez sur ~y~[E]~s~ pour accéder au catalogue automobil", time_display = 1 })
+                RageUI.Text({ message = "Appuyez sur ~y~[E]~s~ pour accéder au catalogue automobile", time_display = 1 })
                 if IsControlJustPressed(1,51) then           
                     ESX.TriggerServerCallback('swann_concess:recuperercategorievehicule', function(catevehi)
                         swann_conc.catevehi = catevehi
